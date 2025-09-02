@@ -91,7 +91,7 @@ Benchmark against Mistral-7B and other mid-size models.
 Deploy lightweight chat API using the fine-tuned model.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/❤️%20Personal%20Reflection-90EE90?style=for-the-badge&logoColor=white&labelColor=90EE90&color=90EE90" width="20%"/>
+  <img src="https://img.shields.io/badge/❤️%20Personal%20Reflection-FFA500?style=for-the-badge&logoColor=white&labelColor=FFA500&color=FFA500" width="20%"/>
 </p>
 
 This wasn’t just about fine-tuning. It was about persistence.
