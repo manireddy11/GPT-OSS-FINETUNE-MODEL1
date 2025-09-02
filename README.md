@@ -170,6 +170,14 @@ Benchmark against Mistral-7B and other mid-size models.
 
 Deploy lightweight chat API using the fine-tuned model.
 
+<p align="center">
+  <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/40ee59961307d7a19dd861414a28e1d0c538180c/Screenshot%202025-08-26%20162721.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="800"/>
+</p>
+
+
+This example shows the model being tested with a math word problem while reasoning in Japanese, even though Japanese wasn’t part of the training data. The output demonstrates that the model can still understand the question, break it down step by step, and respond in Japanese, successfully solving the problem.
+
+
 <p align="left">
   <img src="https://img.shields.io/badge/❤️%20Personal%20Reflection-D3D3D3?style=for-the-badge&logoColor=white&labelColor=D3D3D3&color=D3D3D3" width="20%"/>
 </p>
