@@ -134,7 +134,10 @@ Loss curves showed stable decline after handling outliers.
 Green training bars (Colab widget) gave live progress feedback.
 
 Model generated coherent text outputs from user queries post fine-tuning.
-📷 Screenshots from my runs::::::::::::::::::::::::::::::::::::::::::::
+<p align="center">
+  <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/40ee59961307d7a19dd861414a28e1d0c538180c/Screenshot%202025-08-26%20162721.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="800"/>
+</p>
+
 
 <p align="left">
   <img src="https://img.shields.io/badge/⚡%20Skills%20Demonstrated-87CEEB?style=for-the-badge&logoColor=white&labelColor=87CEEB&color=87CEEB" width="20%"/>
