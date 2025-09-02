@@ -45,6 +45,13 @@ Fine-tuning method: Parameter-efficient fine-tuning (PEFT) with Unsloth
 
 Environment: Google Colab (T4 GPU, 16GB)
 
+<p align="center">
+  <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/68da56e4ce8bee30cfcf10d3b7741bd478d8fb98/Screenshot%202025-08-26%20162644.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="800"/>
+</p>
+
+
+
+
 <p align="left">
   <img src="https://img.shields.io/badge/🔹%20Tokenization%20Challenge-FFD700?style=for-the-badge&logoColor=white&labelColor=FFD700&color=FFD700" width="15%"/>
 </p>
