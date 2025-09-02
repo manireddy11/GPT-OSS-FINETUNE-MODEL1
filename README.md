@@ -39,7 +39,7 @@ Found 9 outlier sequences exceeding the limit → caused instability & OOM.
 Solution: Detect + truncate those outliers (without losing meaningful information).
 
 <p align="left">
-  <img src="https://img.shields.io/badge/🔹%20Why%20It%20Matters-FFD700?style=for-the-badge&logoColor=white&labelColor=FFD700&color=FFD700" width="15%"/>
+  <img src="https://img.shields.io/badge/🔹%20Why%20It%20Matters-FFD700?style=for-the-badge&logoColor=white&labelColor=FFD700&color=FFD700" width="12%"/>
 </p>
 Preserved information density by fitting all data into uniform sequence lengths.
 
@@ -91,7 +91,7 @@ Benchmark against Mistral-7B and other mid-size models.
 Deploy lightweight chat API using the fine-tuned model.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/❤️%20Personal%20Reflection-FFA500?style=for-the-badge&logoColor=white&labelColor=FFA500&color=FFA500" width="20%"/>
+  <img src="https://img.shields.io/badge/❤️%20Personal%20Reflection-D3D3D3?style=for-the-badge&logoColor=white&labelColor=D3D3D3&color=D3D3D3" width="20%"/>
 </p>
 
 This wasn’t just about fine-tuning. It was about persistence.
