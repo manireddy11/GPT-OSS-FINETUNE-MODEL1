@@ -31,6 +31,63 @@ Fine-tuning a 20B model on Colab’s limited T4 GPU sounds impossible — until 
 This project is my proof-of-work: persistence + problem solving + practical ML engineering.
 
 
+
+<p align="center">
+  <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/68da56e4ce8bee30cfcf10d3b7741bd478d8fb98/Screenshot%202025-08-26%20162644.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="800"/>
+</p>
+
+
+Before fine-tuning, we analyzed the dataset’s token length distribution to ensure compatibility with the GPT-OSS-20B model. Token length is critical because exceeding the model’s maximum context window leads to truncation, inefficiency, or higher computational cost.
+
+🔍 Dataset Statistics
+
+Dataset size: 1000 examples
+
+Average length: ~1153 tokens
+
+Median length: 1030 tokens
+
+Maximum length: 32,975 tokens (outliers present)
+
+📈 Token Distribution Breakdown
+
+≤ 512 tokens → 16.0% of examples
+
+≤ 1024 tokens → 49.3% of examples
+
+≤ 2048 tokens → 95.3% of examples
+
+≤ 4096 tokens → 99.8% of examples
+
+📌 Visualization
+
+The histogram below shows the token length distribution across the dataset:
+
+The x-axis represents token counts per example.
+
+The y-axis represents the number of examples within each token length range.
+
+The red dashed line marks the model’s context limit (1024 tokens).
+
+From the plot, we observe:
+
+A large portion of data is clustered below the 1024-token limit.
+
+Nearly half of the dataset fits within the optimal 1024 context window (ideal for fine-tuning efficiency on Google Colab T4 GPU).
+
+A small number of outliers (up to ~32k tokens) exist, which need truncation or special handling during preprocessing to avoid excessive memory usage.
+
+⚡ Why This Matters
+
+Efficient fine-tuning requires balancing sequence length and GPU constraints:
+
+Shorter sequences (≤1024) → Faster training, lower memory usage.
+
+Longer sequences (>1024) → Higher training cost, potential GPU OOM errors.
+
+To optimize performance, we chunked the dataset at 1020 tokens, aligning with the model’s context size and ensuring stable fine-tuning using Unsloth.
+
+
 <p align="left">
   <img src="https://img.shields.io/badge/📖%20Project%20Highlights-A52A2A?style=for-the-badge&logoColor=white&labelColor=A52A2A&color=A52A2A" />
 </p>
@@ -45,9 +102,6 @@ Fine-tuning method: Parameter-efficient fine-tuning (PEFT) with Unsloth
 
 Environment: Google Colab (T4 GPU, 16GB)
 
-<p align="center">
-  <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/68da56e4ce8bee30cfcf10d3b7741bd478d8fb98/Screenshot%202025-08-26%20162644.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="800"/>
-</p>
 
 
 
