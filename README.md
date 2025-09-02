@@ -36,7 +36,7 @@ This project is my proof-of-work: persistence + problem solving + practical ML e
   <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/68da56e4ce8bee30cfcf10d3b7741bd478d8fb98/Screenshot%202025-08-26%20162644.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="800"/>
 </p>
 
-
+TOKEN LENGTH DISTRIBUTION :
 Before fine-tuning, we analyzed the dataset’s token length distribution to ensure compatibility with the GPT-OSS-20B model. Token length is critical because exceeding the model’s maximum context window leads to truncation, inefficiency, or higher computational cost.
 
 🔍 Dataset Statistics
