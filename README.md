@@ -8,6 +8,22 @@
   <img src="https://img.shields.io/badge/🌟%20Why%20This%20Project-808080?style=for-the-badge&logoColor=white&labelColor=808080&color=808080" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/68da56e4ce8bee30cfcf10d3b7741bd478d8fb98/Screenshot%202025-08-26%20162620.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="800"/>
+</p>
+
+
+This screenshot shows how the fine-tuned model is queried for inference using Hugging Face’s transformers.
+
+The chat template is applied to format user prompts.
+
+The model.generate() function runs inference with up to 2048 tokens output.
+
+Example prompt:
+
+"I buy a book for $15 and a coffee for $4.50. The sales tax is 8%. What is the total cost?"
+
+
 
 Most people give up when compute runs out. I didn’t.
 Fine-tuning a 20B model on Colab’s limited T4 GPU sounds impossible — until you bring in Unsloth optimizations and some careful engineering.
