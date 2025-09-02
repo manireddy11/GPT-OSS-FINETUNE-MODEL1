@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/🚀%20Fine--Tuning%20GPT--OSS%2020B%20with%20Unsloth-F5F5DC?style=for-the-badge&logoColor=white&labelColor=F5F5DC&color=F5F5DC" width="700"/>
+  <img src="https://img.shields.io/badge/🚀%20Fine--Tuning%20GPT--OSS%2020B%20with%20Unsloth-FFFFF0?style=for-the-badge&logoColor=white&labelColor=FFFFF0&color=FFFFF0" width="700"/>
 </p>
-
 
 “Not just running models — I optimized and fine-tuned a 20B parameter LLM within the limits of Google Colab T4.”
 
