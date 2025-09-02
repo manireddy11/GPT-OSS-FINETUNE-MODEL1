@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/68da56e4ce8bee30cfcf10d3b7741bd478d8fb98/Screenshot%202025-08-26%20162620.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="800"/>
+  <img src="https://github.com/manireddy11/GPT-OSS-FINETUNE-MODEL1/blob/68da56e4ce8bee30cfcf10d3b7741bd478d8fb98/Screenshot%202025-08-26%20162620.png?raw=true" alt="GPT-OSS Fine-Tune Screenshot" width="1000"/>
 </p>
 
 
